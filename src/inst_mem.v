@@ -19,7 +19,7 @@ module inst_mem(
         
         
         // Format: $readmemh("filelocation", array_name);
-        $readmemh("/home/athxrvav/Documents/RISC V/RISCV/RISCV.srcs/sources_1/new/program.hex", mem);
+        $readmemh("/home/location/program.hex", mem);
     end
 
     assign data = mem[addr[31:2]];
